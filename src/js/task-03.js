@@ -12,3 +12,9 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+
+// const gallery = images
+//   .map((image) => `<li>${image}</li>`)
+//   .join("");
+// console.log(gallery);
