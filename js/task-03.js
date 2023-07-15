@@ -14,7 +14,10 @@ const images = [
 ];
 
 
+
+// Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
+//  Для створення розмітки використовуй шаблонні рядки і метод insertAdjacentHTML().
 // const gallery = images
-//   .map((image) => `<li>${image}</li>`)
+//   .map((images) => `<li>${images}</li>`)
 //   .join("");
 // console.log(gallery);
