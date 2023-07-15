@@ -13,11 +13,11 @@ const images = [
   },
 ];
 
+const listEl = document.querySelector('.gallery');
 
+const galleryEl = images
+  .map((images) => `<li class="list-item"><img src="${images.url}" alt="${images.alt}" width = 260px></li>`)
+  .join("");
 
-// Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
-//  Для створення розмітки використовуй шаблонні рядки і метод insertAdjacentHTML().
-// const gallery = images
-//   .map((images) => `<li>${images}</li>`)
-//   .join("");
-// console.log(gallery);
+listEl.insertAdjacentHTML("beforeend", galleryEl);
+console.log(listEl);

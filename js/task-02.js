@@ -16,3 +16,5 @@ for (const ingredient of ingredients) {
   liEl.className = "item";
   listEl.appendChild(liEl);
 }
+
+console.log(listEl);
