@@ -9,12 +9,12 @@ const ingredients = [
 
 
 const listEl = document.querySelector('#ingredients');
+const liElements = [];
 
 for (const ingredient of ingredients) {
   const liEl = document.createElement("li");
   liEl.textContent = ingredient;
   liEl.className = "item";
-  listEl.appendChild(liEl);
+  liElements.push(liEl);
 }
-
-console.log(listEl);
+listEl.append(...liElements);

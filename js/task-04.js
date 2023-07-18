@@ -7,11 +7,9 @@ const value = document.querySelector("#value");
 buttonDecrement.addEventListener("click", () => {
   counterValue -= 1;
   value.textContent = counterValue;
-    console.log(`Number when pressed: ${counterValue}`);
 });
 
 buttonIncrement.addEventListener("click", () => {
   counterValue += 1;
   value.textContent = counterValue;
-    console.log(`Number when pressed: ${counterValue}`);
 });

@@ -12,7 +12,6 @@ function handlerSubmit(event) {
   if (dataObject.email === "" || dataObject.password === "") {
     return alert("Поля пусті");
   };
-  console.log(dataObject);
 
   loginForm.reset();
 }
